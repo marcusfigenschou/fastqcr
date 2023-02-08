@@ -102,6 +102,7 @@ print.qctable <- function(x, ...){
 
   switch(module,
          per_sequence_gc_content = .plot_gc_content,
+         plot_tile_seq_quality = .plot_tile_seq_quality,
          per_base_sequence_quality = .plot_base_quality,
          per_sequence_quality_scores = .plot_sequence_quality,
          per_base_sequence_content = .plot_sequence_content,
